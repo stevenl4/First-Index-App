@@ -1,5 +1,5 @@
 {
-  "name": "First-Index-App",
+  "name": "1",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -13,5 +13,21 @@
     "express": "~4.13.1",
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0"
-  }
+  },
+  "description": "",
+  "main": "app.js",
+  "bin": {
+    "1": "www.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenl4/first-index-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenl4/first-index-app/issues"
+  },
+  "homepage": "https://github.com/stevenl4/first-index-app#readme"
 }

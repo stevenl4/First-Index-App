@@ -9,6 +9,11 @@
         <% include templates/header.ejs %>
         <h1><%= title %></h1>
         <p>Welcome to <%= title %></p>
-        <p>Here is some data: <%= somedata %></p>
+        <p>Here is some data: </p>
+        <ul>
+            <li>name: <%= somedata.name %></li>
+            <li>age: <%= somedata.age %></li>
+            <li>gender: <%= somedata.gender %></li>
+        </ul>
     </body>
 </html>
