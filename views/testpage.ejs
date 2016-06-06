@@ -15,5 +15,14 @@
             <li>age: <%= somedata.age %></li>
             <li>gender: <%= somedata.gender %></li>
         </ul>
+
+        <p>Here is some list</p>
+        <% todoItems.forEach(function(item, index){ %>
+            <li><%=index %>) <%=item.desc%></li>
+        <% })%>
+        <form action="/testpage/add" method="post">
+            <input type="text" name="newItem">
+            <input type="submit">
+        </form>
     </body>
 </html>
