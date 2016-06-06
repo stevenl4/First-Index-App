@@ -17,9 +17,11 @@
         </ul>
 
         <p>Here is some list</p>
+        <ul>
         <% todoItems.forEach(function(item, index){ %>
             <li><%=index %>) <%=item.desc%></li>
         <% })%>
+        </ul>
         <form action="/testpage/add" method="post">
             <input type="text" name="newItem">
             <input type="submit">
